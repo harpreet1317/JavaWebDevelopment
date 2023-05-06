@@ -1,6 +1,6 @@
 import java.util.Scanner;
 public class ArrayDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         /*int m,n,i,j;
         //int[][] a=new int[m][n];
@@ -37,14 +37,33 @@ public class ArrayDemo {
         }
         return minVal;
     */
-                int rows = 5;
+               /* int rows = 5;
 
                 for(int i=rows; i>=1; i--) {
                     for(int j=1; j<=i; j++) {
                         System.out.print("* ");
                     }
                     System.out.println();
-                }
+                }*/
+        int[] orderPrice = new int[10];
+        Scanner sc=new Scanner(System.in);
+
+        for(int i=0;i<orderPrice.length;i++) {
+
+            if ((i == 4) || (i == 5) || (i == 8) || (i == 9)) {
+                System.out.println("Enter th value for "+i +" location");
+                orderPrice[i] = sc.nextInt();
             }
         }
+       /* orderPrice[2] = 5;
+        orderPrice[5] = 8;
+        orderPrice[6] = 4;
+        orderPrice[9] = 9;*/
+
+        for (int i = 0; i < orderPrice.length; i++) {
+
+            System.out.println(orderPrice[i]);
+        }
+    }
+}
 
