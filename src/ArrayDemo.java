@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class ArrayDemo {
     public static void main(String[] args) {
-
+  
+        
         /*int m,n,i,j;
         //int[][] a=new int[m][n];
         //int m,n,i,j;
